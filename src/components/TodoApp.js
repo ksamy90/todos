@@ -13,7 +13,7 @@ export default class TodoApp extends React.Component {
   handleDeleteTodos = () => {
     this.setState(() => ({ todos: [] }));
   };
-  handleClearSelectedOption = () => {
+  handleClearSelectedTodo = () => {
     this.setState(() => ({ selectedTodo: undefined }));
   }
   handleDeleteTodo = (todoToRemove) => {
